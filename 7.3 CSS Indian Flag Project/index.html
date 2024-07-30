@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>CSS Flag Project</title>
+     <style>
+     .flag{
+        height: 500px;
+        width:100%;
+        position: relative;
+        background-color:papayawhip;
+     }
+     .flag > div.orange{
+        position:relative;
+        height:166.66px;
+        width:100%;
+        background-color:#FF671F;
+     }
+     .flag > div.white{
+        position:absolute;
+        height:166.66px;
+        width:100%;
+        background-color:white;
+     }
+     .flag>div.green{
+        position:absolute;
+        top:333.26px;
+        height:166.66px;
+        width:100%;
+        background-color:#046A38;
+     }
+     div>div>div{
+      background-color: #32c3ec;
+      position: absolute;
+      height:167px;
+      width: 167px;
+      border-radius: 50%;
+     top:0px;
+      left:41%;
+     }
+
+     p{
+        text-align: center;
+        font-size:0.3rem;
+        text-align:right;
+     }
+     </style>
+    </head>
+
+    <body>
+      <div class="flag">
+        <div class="orange">
+            <p>Orange</p>
+        </div>
+        <div class="white">
+           <p>White</p>
+           <div>
+
+           </div>
+        </div>
+        <div class="green">
+            <p>Green</p>
+        </div>
+      </div>
+    </body>
+</html>
